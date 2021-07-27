@@ -1168,7 +1168,8 @@ focustop(Monitor *m)
 }
 
 void
-gaplessgrid(Monitor *m) {
+gaplessgrid(Monitor *m)
+{
 	unsigned int n = 0, i = 0, ch, cw, cn, rn, rows, cols;
 	Client *c;
 
